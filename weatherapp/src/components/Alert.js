@@ -11,7 +11,6 @@ function LinksExample() {
         <Alert key={variant} variant={variant}>
           API Updated 5 hours ago by{' '}
           <Alert.Link href="/">Future</Alert.Link>. 
-          
         </Alert>
       ))}
     </>
