@@ -1,0 +1,24 @@
+{
+  "lat": "26.20227S",
+  "lon": "28.04363E",
+  "elevation": 1767,
+  "timezone": "Africa/Johannesburg",
+  "units": "metric",
+  "current": {
+    "icon": "clear",
+    "icon_num": 26,
+    "summary": "Clear",
+    "temperature": 12.0,
+    "feels_like": 10.5,
+    "wind_chill": 12.0,
+    "dew_point": -7.0,
+    "wind": { "speed": 2.4, "gusts": 5.3, "angle": 299, "dir": "WNW" },
+    "precipitation": { "total": 0.0, "type": "none" },
+    "cloud_cover": 1,
+    "ozone": 251.81,
+    "pressure": 1022,
+    "uv_index": 0.0,
+    "humidity": 25,
+    "visibility": 24.13
+  }
+}

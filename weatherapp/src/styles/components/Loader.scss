@@ -1,0 +1,42 @@
+.Loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loader {
+    width: 600px;
+    height: 620px;
+    background: radial-gradient(        circle 105px at top right,        #fad029 40%,        #f3ecec00      ),      transparent;
+    position: relative;
+    overflow: hidden;
+    top: 10rem;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+}
+  .loader:before,
+  .loader:after {
+    content: 'Future';
+    position: absolute;
+    top: 8px;
+    left: -50px;
+    width: 110px;
+    height: 50px;
+    --c: radial-gradient(farthest-side, #fff 96%, #0000);
+    background: var(--c) 100% 100% /30% 60%, var(--c) 70% 0 /50% 100%,      var(--c) 0 100% /36% 68%, var(--c) 27% 18% /26% 40%,      linear-gradient(#fff 0 0) bottom/67% 58%;
+    background-repeat: no-repeat;
+    animation: l10 2s linear infinite;
+    -webkit-animation: l10 6s linear infinite;
+}
+  .loader:after {
+    top: 25px;
+    --l: 200%;
+  }
+  @keyframes l10 {
+    100% {
+      left: var(--l, 105%);
+    }
+  }
+}
