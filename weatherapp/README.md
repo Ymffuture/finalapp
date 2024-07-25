@@ -15,10 +15,7 @@
 
  Install the dependencies:
     ```sh
-    npm install
-   
-    ```
-
+  npm install
     ```
 
 ### Usage
@@ -26,6 +23,8 @@
  Start the development server:
     ```sh
     npm start
+    ```
+    npm install axios bootstrap-icons
     ```
 ## Dependencies
 
